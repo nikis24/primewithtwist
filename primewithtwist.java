@@ -3,19 +3,12 @@ import java.util.*;
 public class primewithtwist {
     
     public static void main(String[] args) {
-        
         Scanner sc = new Scanner(System.in);
-
         System.out.println("Enter any no.: " );
-
         int n = sc.nextInt();
-
         primewithtwist ob=new primewithtwist();
-
         ob.check(n);
-
-       
-
+        sc.close();
     }
 
     void check(int n){
@@ -27,7 +20,6 @@ public class primewithtwist {
             
             prime(n);
         }
-
     }
 
     void prime(int n){
@@ -39,11 +31,7 @@ public class primewithtwist {
 
                 ++c;
 
-            }
-
-            
-
-            
+            } 
         }
         if (c>=1) {
 
@@ -54,8 +42,5 @@ public class primewithtwist {
             System.out.println("Entered number is a prime number");                
             
         }
-
-
     }
-
 }
